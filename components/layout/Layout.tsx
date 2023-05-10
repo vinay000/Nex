@@ -3,11 +3,7 @@ import Box from '../box/Box'
 
 const Layout = ({ children }: any) => {
     return (
-        <Box
-            css={{
-                maxW: "100%"
-            }}
-        >
+        <Box css={{ maxW: "100%" }} >
             {children}
         </Box>
     )
