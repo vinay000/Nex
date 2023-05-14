@@ -32,7 +32,7 @@ export default function App() {
                 hideIn="xs"
                 variant="highlight-rounded"
             >
-                <Navbar.Link href="#">Free</Navbar.Link>
+                <Navbar.Link href={`/courses/`}>Courses</Navbar.Link>
                 <Navbar.Link isActive href="#">
                     Customers
                 </Navbar.Link>

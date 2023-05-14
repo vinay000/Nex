@@ -5,9 +5,7 @@ import { heroImage, image2, image3, midImage } from '@/constants/ImageConstant';
 import HeroItem from '@/components/heroItem/HeroItem';
 import { dela, montserrat } from '@/utils/fonts';
 
-
-
-const Tutorials = () => {
+const Landing = () => {
     const isMd = useMediaQuery(960);
 
     type HeroTextType = {
@@ -74,7 +72,13 @@ const Tutorials = () => {
                         fontWeight: 700, lineHeight: '140%',
                         letterSpacing: '-0.04em',
                         mt: 20
-                    }}>500 +</Text>
+                    }}>500 +
+                    </Text>
+                    <Text size={'$3xl'} css={{
+                        fontWeight: 700, lineHeight: '140%',
+                        letterSpacing: '-0.04em',
+                        mt: 20
+                    }}>700 + </Text>
                 </Row>
             </HeroItem>
 
@@ -99,4 +103,4 @@ const Tutorials = () => {
     )
 }
 
-export default Tutorials
+export default Landing
