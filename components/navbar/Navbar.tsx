@@ -37,7 +37,7 @@ export default function App() {
                     Customers
                 </Navbar.Link>
                 <Navbar.Link href="#">Pricing</Navbar.Link>
-                <Navbar.Link href="#">Company</Navbar.Link>
+                <Navbar.Link href="#">Community</Navbar.Link>
             </Navbar.Content>
             <Navbar.Content>
                 <Navbar.Link color="inherit" href="#">

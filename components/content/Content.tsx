@@ -1,10 +1,8 @@
-import Tutorials from "@/pages/tutorials/Tutorails";
 import { Text, Spacer } from "@nextui-org/react";
 import Box from "../box/Box";
 
 export const Content = () => (
     <Box css={{ mt: 60 }}>
-        <Tutorials />
         <Spacer y={1} />
         <Text size="$lg">
             Tincidunt vitae semper quis lectus nulla at volutpat diam. Gravida dictum fusce ut placerat.

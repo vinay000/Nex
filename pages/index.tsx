@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Layout from '@/components/layout/Layout'
-import Landing from '@/components/landing/landing'
+import Landing from '@/components/landing/Landing'
 
 const inter = Inter({ subsets: ['latin'] })
 
